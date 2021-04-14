@@ -1,0 +1,44 @@
+.boxBanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    margin-bottom: 30px;
+    height: 200px;
+    width: 100%;
+    position: relative;
+}
+
+.banner {
+    display: flex;
+    height: 200px;
+    width: 1200px;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    border-radius: 10px;
+    box-shadow: 0px 1px 2px #aaa;
+}
+
+.textBanner{
+    display: flex;
+    width: 280px;
+    height: 150px;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    bottom: 27px;
+    left: 420px;
+    flex-direction: column;
+    margin: 10px;
+}
+
+#nameBanner {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 40px;
+}
+
+#priceBanner {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 30px;
+}

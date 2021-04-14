@@ -1,0 +1,126 @@
+.container{
+  display: flex;
+  align-items: flex-start;
+}
+
+.boxProduct {
+  display: flex;
+  flex-direction: column;
+  min-height: 400px;
+  align-items: center;
+  margin-left: 90px;
+  margin-right: 80px;
+  width: 650px;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0px 1px 2px #aaa;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  text-align:justify;
+  padding: 10px;
+}
+
+
+.boxProduct img {
+  margin-left: 20px;
+  margin-right: -10px;
+  width: 45%;
+  height: 80%;
+}
+
+#linhaVertical {
+  width: 370px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #aaa;
+  }
+
+#linhaHorizontal {
+
+  width: 370px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #aaa;
+}  
+
+.boxInformations { 
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 30px;
+  padding-top: 50px;
+  width: 450px;
+  height: 400px;
+  background-color:  #fff;
+  border-radius: 15px;
+  box-shadow: 0px 1px 2px #aaa;
+  text-align:justify;
+}
+
+.cartProduct {
+    width: 40px;
+    height: 40px;
+}
+
+.addToCart {
+  background-color: #B7DE8F;
+  width: 250px;
+  height: 30px;
+  border-radius: 15px;
+  margin-top: 200px;
+  margin-left: 65px;
+  padding-top: 7px;
+}
+
+.addToCart p {
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 80px;
+}
+
+.addToCart:hover{
+  background-color: #91dd44;
+}
+
+.desability{
+  background-color: #262b21;
+  width: 250px;
+  height: 30px;
+  border-radius: 15px;
+  margin-top: 200px;
+  margin-left: 65px;
+  padding-top: 7px;
+}
+
+.desability p {
+  color: #fff;
+  font-weight: bold;
+  margin-left: 80px;
+}
+
+.nameProduct {
+  font-size: 25px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+.descriptionProduct {
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.summaryProduct {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: -70px;
+ 
+}
+
+.valueProduct {
+  font-size: 25px;
+  font-style: oblique;
+  font-weight: bold;
+}

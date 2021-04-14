@@ -1,0 +1,15 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: #000;
+    position: relative;
+    width: 100%;
+    box-shadow: 0px -3px 8px #353434;
+}
+
+.logoFooter {
+    width: auto;
+    height: 40px;
+}

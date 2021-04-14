@@ -1,0 +1,40 @@
+* {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+nav {
+    background-color: #557981;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+    box-shadow: 0px 5px 10px #aaaaaa;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+}
+
+.logoHeader {
+    height: auto;
+    width: auto;
+}
+
+ul li a {
+    font-size: 17px;
+    text-decoration: none;
+    color: #fff;
+    text-shadow:  -1px 1px 3px #dbd7d7;
+}
+.home {
+    padding: 20px;
+    margin-right: 10px;
+}
+
+.products {
+    padding: 15px;
+    
+}
